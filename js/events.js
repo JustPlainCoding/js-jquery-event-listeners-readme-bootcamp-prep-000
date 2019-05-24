@@ -12,7 +12,7 @@ function frameIt(){
 }
 
 function pressIt() {
-  $('input').on('keypress', function(e) {
+  $('#typing').on('keypress', function(e) {
     let key = e.key;
     if(key === 'g') {
       alert('You pressed G!')
