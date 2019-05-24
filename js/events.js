@@ -25,5 +25,10 @@ function submitIt() {
   })
 }
 
+getIt();
+frameit();
+pressIt();
+submitIt();
+
 $(document).ready(function(){
 });
